@@ -1,0 +1,22 @@
+# Terraform state and plan files
+# The .terraform.lock.hcl file SHOULD be committed to version control.
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfplan
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# VS Code user settings
+.vscode/
