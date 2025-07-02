@@ -109,3 +109,8 @@ output "corpus_bucket_name" {
   description = "The globally unique name of the GCS bucket for the corpus."
   value       = google_storage_bucket.corpus_bucket.name
 }
+
+output "corpus_datastore_id" {
+  description = "The ID of the Discovery Engine data store."
+  value       = google_discovery_engine_data_store.corpus_datastore.data_store_id
+}
