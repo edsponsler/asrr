@@ -18,5 +18,9 @@ venv/
 .venv/
 *.egg-info/
 
+# Environment
+*.env
+sessions.db
+
 # VS Code user settings
 .vscode/
